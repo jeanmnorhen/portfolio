@@ -46,9 +46,9 @@ export default function Header() {
                         <Link href="/" locale="pt" style={{ opacity: 0.7 }}>PT</Link>
                     </div>
 
-                    <Link href="/#contact" className="btn-primary" style={{ padding: '8px 16px', fontSize: '0.9rem' }}>
+                    <a href="https://wa.me/+5566999318742" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '8px 16px', fontSize: '0.9rem', textDecoration: 'none' }}>
                         {t('contact')}
-                    </Link>
+                    </a>
                 </div>
             </div>
         </header>

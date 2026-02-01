@@ -14,6 +14,13 @@ export default function WorkPage() {
         'p1': ["Tinybird", "Next.js", "Analytics", "PostgreSQL"],
         'p2': ["SaaS", "Fintech", "Node.js", "PostgreSQL"]
     };
+    const projectLinks: Record<string, string> = {
+        'basic': 'https://leads-ultra-fast.vercel.app',
+        'standard': 'https://shopify-small-store.vercel.app',
+        'premium': 'https://medusa-premium-store.vercel.app',
+        'p1': '#',
+        'p2': '#'
+    };
 
     return (
         <main className="container section-padding">
@@ -35,7 +42,7 @@ export default function WorkPage() {
                         title={t(`projects.${key}.title`)}
                         description={t(`projects.${key}.desc`)}
                         tags={projectsTags[key as keyof typeof projectsTags]}
-                        link="#"
+                        link={projectLinks[key]}
                     />
                 ))}
             </div>

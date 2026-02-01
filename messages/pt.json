@@ -39,6 +39,18 @@
         "title": "Projetos Selecionados",
         "subtitle": "Uma coleção de projetos onde performance, segurança e experiência do usuário foram fundamentais.",
         "projects": {
+            "basic": {
+                "title": "UltraFast - Landing Page de Conversão",
+                "desc": "Página de destino focada em performance para máxima conversão de leads. Com efeitos de brilho, entrega via Edge e ISR para atualizações em tempo real."
+            },
+            "standard": {
+                "title": "Moderna - Shopify Headless",
+                "desc": "Loja virtual premium usando a API do Shopify. Combina o robusto motor de e-commerce do Shopify com um frontend Next.js personalizado de alta performance."
+            },
+            "premium": {
+                "title": "AURUM - Loja de Luxo Exclusiva",
+                "desc": "Experiência de compra de luxo de nível enterprise. Arquitetura desacoplada com MedusaJS e Supabase, projetada para marcas que exigem controle total."
+            },
             "p1": {
                 "title": "Dashboard Analítico E-Commerce",
                 "desc": "Plataforma de analytics analisando mais de 1M+ eventos diários. Construído com Next.js, Tinybird e localizado para 4 mercados globais."
@@ -46,14 +58,6 @@
             "p2": {
                 "title": "Plataforma Fintech SaaS",
                 "desc": "Ferramenta segura de relatórios financeiros compatível com SOC2. Visualização de dados complexa e controle de acesso baseado em função."
-            },
-            "p3": {
-                "title": "Gerador de Conteúdo IA",
-                "desc": "Aplicação de IA Generativa permitindo criação de copy de marketing em escala. Integração com API OpenAI e pipelines de fine-tuning customizados."
-            },
-            "p4": {
-                "title": "Marketplace Imobiliário",
-                "desc": "Plataforma de listagem de alta performance com ISR (Incremental Static Regeneration) para dominância de SEO e carregamento rápido."
             }
         }
     },

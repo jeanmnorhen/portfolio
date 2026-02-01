@@ -1,4 +1,6 @@
 
+import Link from 'next/link';
+
 export interface ProjectProps {
     title: string;
     description: string;
@@ -7,15 +9,16 @@ export interface ProjectProps {
 }
 
 export default function ProjectCard({ title, description, tags, link }: ProjectProps) {
-    return (
-        <div className="glass" style={{
+    const CardContent = (
+        <div className="glass project-card-inner" style={{
             padding: '32px',
             borderRadius: 'var(--radius-lg)',
             display: 'flex',
             flexDirection: 'column',
             height: '100%',
             transition: 'transform 0.3s ease, border-color 0.3s ease',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            border: '1px solid var(--border-subtle)'
         }}>
             <h3 style={{ fontSize: '1.75rem', marginBottom: '12px', color: 'var(--text-primary)' }}>
                 {title}
@@ -40,4 +43,14 @@ export default function ProjectCard({ title, description, tags, link }: ProjectP
             </div>
         </div>
     );
+
+    if (link && link !== "#") {
+        return (
+            <Link href={link} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+                {CardContent}
+            </Link>
+        );
+    }
+
+    return CardContent;
 }

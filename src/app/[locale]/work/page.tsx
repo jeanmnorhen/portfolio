@@ -5,14 +5,14 @@ export default function WorkPage() {
     const t = useTranslations('Work');
 
     // Mapping project keys manually since they are objects in JSON
-    const projectKeys = ['p1', 'p2', 'p3', 'p4'];
+    const projectKeys = ['basic', 'standard', 'premium', 'p1', 'p2'];
 
-    // Static tags for now as they are technical terms
     const projectsTags = {
-        'p1': ["Next.js", "TypeScript", "Tinybird", "Tremor"],
-        'p2': ["React", "Node.js", "PostgreSQL", "AWS"],
-        'p3': ["Next.js", "OpenAI API", "Tailwind", "Stripe"],
-        'p4': ["Next.js", "Supabase", "ISR", "Google Maps API"]
+        'basic': ["Next.js 15", "Vercel Edge", "Supabase", "ISR"],
+        'standard': ["Shopify API", "Next.js", "Supabase", "Headless"],
+        'premium': ["MedusaJS", "Supabase Auth", "Next.js", "Enterprise"],
+        'p1': ["Tinybird", "Next.js", "Analytics", "PostgreSQL"],
+        'p2': ["SaaS", "Fintech", "Node.js", "PostgreSQL"]
     };
 
     return (

@@ -53,11 +53,7 @@
       },
       "p1": {
         "title": "E-Commerce Analytics Dashboard",
-        "desc": "Real-time analytics platform analyzing over 1M+ daily events. Built with Next.js, Tinybird, and localized for 4 global markets."
-      },
-      "p2": {
-        "title": "Fintech SaaS Platform",
-        "desc": "Secure detailed financial reporting tool compliant with SOC2. Implemented complex data visualization and role-based access control."
+        "desc": "Advanced analytics dashboard integrated with MedusaJS commerce engine. Real-time monitoring of sales, inventory, and customer behavior with high-performance data visualization."
       }
     }
   },

@@ -53,11 +53,7 @@
             },
             "p1": {
                 "title": "Dashboard Analítico E-Commerce",
-                "desc": "Plataforma de analytics analisando mais de 1M+ eventos diários. Construído com Next.js, Tinybird e localizado para 4 mercados globais."
-            },
-            "p2": {
-                "title": "Plataforma Fintech SaaS",
-                "desc": "Ferramenta segura de relatórios financeiros compatível com SOC2. Visualização de dados complexa e controle de acesso baseado em função."
+                "desc": "Dashboard de analytics avançado integrado ao motor de commerce MedusaJS. Monitoramento em tempo real de vendas, inventário e comportamento do cliente com visualização de dados de alta performance."
             }
         }
     },

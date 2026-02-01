@@ -5,21 +5,19 @@ export default function WorkPage() {
     const t = useTranslations('Work');
 
     // Mapping project keys manually since they are objects in JSON
-    const projectKeys = ['basic', 'standard', 'premium', 'p1', 'p2'];
+    const projectKeys = ['basic', 'standard', 'premium', 'p1'];
 
     const projectsTags = {
         'basic': ["Next.js 15", "Vercel Edge", "Supabase", "ISR"],
         'standard': ["Shopify API", "Next.js", "Supabase", "Headless"],
         'premium': ["MedusaJS", "Supabase Auth", "Next.js", "Enterprise"],
-        'p1': ["Tinybird", "Next.js", "Analytics", "PostgreSQL"],
-        'p2': ["SaaS", "Fintech", "Node.js", "PostgreSQL"]
+        'p1': ["MedusaJS", "Next.js", "Analytics", "PostgreSQL"]
     };
     const projectLinks: Record<string, string> = {
         'basic': 'https://leads-ultra-fast.vercel.app',
         'standard': 'https://shopify-small-store.vercel.app',
         'premium': 'https://medusa-premium-store.vercel.app',
-        'p1': '#',
-        'p2': '#'
+        'p1': 'https://ecommerce-analytics-medusa.vercel.app'
     };
 
     return (

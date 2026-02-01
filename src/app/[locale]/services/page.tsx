@@ -320,6 +320,29 @@ export default function ServicesPage() {
                             }}>
                                 {t(`${pkg.key}.ideal_for`)}
                             </div>
+
+                            {/* Fiverr CTA Button */}
+                            <a
+                                href={t(`${pkg.key}.fiverr_link`)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    display: 'block',
+                                    marginTop: '24px',
+                                    padding: '16px 32px',
+                                    background: `linear-gradient(135deg, ${pkg.color}, ${pkg.color}dd)`,
+                                    color: 'white',
+                                    textAlign: 'center',
+                                    borderRadius: '50px',
+                                    textDecoration: 'none',
+                                    fontWeight: 700,
+                                    fontSize: '1rem',
+                                    transition: 'all 0.3s ease',
+                                    boxShadow: `0 4px 15px ${pkg.color}40`
+                                }}
+                            >
+                                🛒 Order on Fiverr
+                            </a>
                         </div>
                     );
                 })}
@@ -406,7 +429,9 @@ export default function ServicesPage() {
                     {t('cta.desc')}
                 </p>
                 <a
-                    href="mailto:contact@example.com"
+                    href="https://wa.me/+5566999318742"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                         display: 'inline-block',
                         padding: '16px 40px',

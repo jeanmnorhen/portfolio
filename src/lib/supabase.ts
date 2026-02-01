@@ -1,0 +1,16 @@
+
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+// Warn development console if keys are missing
+if (!supabaseUrl || !supabaseAnonKey) {
+    console.warn('Supabase credentials missing! Check .env.local');
+}
+
+// Create a single supabase client for interacting with your database
+export const supabase = createClient(
+    supabaseUrl || '',
+    supabaseAnonKey || ''
+);

@@ -1,0 +1,177 @@
+{
+  "Navigation": {
+    "work": "Work",
+    "services": "Services",
+    "about": "About",
+    "contact": "Let's Talk"
+  },
+  "Home": {
+    "badge": "Available for New Projects",
+    "title_start": "Building",
+    "title_highlight": "Digital Excellence",
+    "title_end": "for Forward-Thinking Brands.",
+    "description": "I help businesses launch secure, high-performance web applications that convert. Full-stack expertise with a focus on speed, scalability, and premium user experiences.",
+    "cta_primary": "Start Your Project",
+    "cta_secondary": "View Work",
+    "powered_by": "Powered by Modern Tech",
+    "powered_desc": "Leveraging the best tools for the job.",
+    "features": {
+      "performance": {
+        "title": "Performance First",
+        "desc": "Speed is a feature. I architect applications that load instantly and perform seamlessly under load."
+      },
+      "security": {
+        "title": "Secure by Design",
+        "desc": "Security isn't an afterthought. From database protection to API authentication, I implement industry-standard security measures."
+      },
+      "scalability": {
+        "title": "Scalable Architecture",
+        "desc": "Built on Next.js and Serverless infrastructure, your application scales automatically with traffic."
+      }
+    },
+    "ready": {
+      "title": "Ready to Scale?",
+      "desc": "Let's turn your vision into a high-performing reality. Book a discovery call or send an email to get started.",
+      "button": "Get in Touch"
+    }
+  },
+  "Work": {
+    "title": "Selected Work",
+    "subtitle": "A collection of projects where performance, security, and user experience were paramount.",
+    "projects": {
+      "p1": {
+        "title": "E-Commerce Analytics Dashboard",
+        "desc": "Real-time analytics platform analyzing over 1M+ daily events. Built with Next.js, Tinybird, and localized for 4 global markets."
+      },
+      "p2": {
+        "title": "Fintech SaaS Platform",
+        "desc": "Secure detailed financial reporting tool compliant with SOC2. Implemented complex data visualization and role-based access control."
+      },
+      "p3": {
+        "title": "AI Content Generator",
+        "desc": "Generative AI application allowing users to create marketing copy at scale. Integrated OpenAI API with custom fine-tuning pipelines."
+      },
+      "p4": {
+        "title": "Real Estate Marketplace",
+        "desc": "High-performance property listing platform with ISR (Incremental Static Regeneration) for SEO dominance and fast load times."
+      }
+    }
+  },
+  "Services": {
+    "badge": "Service Packages",
+    "title": "Tailored Solutions for Every Stage of Your Business",
+    "subtitle": "From rapid launch to enterprise e-commerce. Choose the package that aligns with your goals and scale when you're ready.",
+    "basic": {
+      "title": "Basic Package — Ultra-Fast Landing Page",
+      "tagline": "The End of Slow Websites",
+      "price": "Starting at $500",
+      "desc": "Perfect for validating your idea, launching a product, or creating a professional online presence. This isn't just a static site — it's an optimized conversion machine.",
+      "tech_title": "Core Technology",
+      "tech_stack": "Next.js 15 + Vercel Edge Network + ISR (Incremental Static Regeneration)",
+      "features": {
+        "0": "Deploy in under 48 hours",
+        "1": "Load time < 1 second (Vercel Edge CDN global)",
+        "2": "SEO optimized with dynamic metadata",
+        "3": "ISR: Update content without redeployment",
+        "4": "Contact form with notifications",
+        "5": "Premium responsive design",
+        "6": "Integrated analytics (Vercel Analytics)",
+        "7": "Automatic SSL and HTTPS"
+      },
+      "why_title": "Why Next.js + ISR?",
+      "why_desc": "ISR allows you to update text, prices, or images directly through an admin panel without needing a new deployment. The site remains ultra-fast (static) but with the flexibility of dynamic content.",
+      "why_vercel": "Vercel Edge Network ensures your site loads in milliseconds anywhere in the world — São Paulo, New York, or Tokyo.",
+      "ideal_for": "Ideal for: Startups, Freelancers, SaaS Products, Premium Portfolios"
+    },
+    "intermediate": {
+      "title": "Intermediate Package — Headless E-Commerce",
+      "tagline": "Shopify + Supabase: Best of Both Worlds",
+      "price": "Starting at $1,600",
+      "desc": "Combine Shopify's security and ease with a custom frontend's flexibility. You sell through the Shopify app, but your customers see a high-performance site.",
+      "tech_title": "Hybrid Architecture",
+      "tech_stack": "Next.js + Shopify Storefront API + Supabase (PostgreSQL) + Vercel",
+      "features": {
+        "0": "Secure checkout via Shopify (PCI compliant)",
+        "1": "Inventory management via Shopify app",
+        "2": "100% custom-built frontend",
+        "3": "Personalized wishlist (Supabase)",
+        "4": "Exclusive coupon system",
+        "5": "Advanced analytics dashboard",
+        "6": "Customer authentication (Supabase Auth)",
+        "7": "Personalized product recommendations",
+        "8": "10x better performance than standard Shopify"
+      },
+      "why_title": "Why Headless Shopify?",
+      "why_desc": "Shopify handles what it does best: payments, inventory, and logistics. Supabase adds features that basic Shopify doesn't offer — rich user profiles, browsing history, wishlists, custom reviews.",
+      "why_supabase": "Supabase provides a real PostgreSQL database with Row Level Security (RLS), ensuring your customers' data is protected at the row level.",
+      "combo_power": "The Combo: You get Shopify's reliability + the creative freedom of a custom app.",
+      "ideal_for": "Ideal for: Growing e-commerce, Fashion brands, Stores with 100-10k products"
+    },
+    "premium": {
+      "title": "Premium Package — Total Open-Source E-Commerce",
+      "tagline": "MedusaJS: The 'Shopify Killer'",
+      "price": "Starting at $3,000",
+      "desc": "Total control. Zero transaction fees. Your own database. This is the solution for those who want to scale without limits and without depending on third-party platforms.",
+      "tech_title": "Enterprise Stack",
+      "tech_stack": "MedusaJS (Node.js) + Supabase (PostgreSQL + Auth) + Next.js + Railway/Render",
+      "features": {
+        "0": "0% transaction fee (vs 2% from Shopify)",
+        "1": "Total database control",
+        "2": "Native multi-currency and multi-region",
+        "3": "Customizable admin dashboard",
+        "4": "Unlimited integrations (CRM, ERP, etc)",
+        "5": "Custom automations (emails, inventory)",
+        "6": "Supabase Auth with Row Level Security",
+        "7": "Infinite scalability",
+        "8": "100% open-source code (no vendor lock-in)"
+      },
+      "why_title": "Why MedusaJS?",
+      "why_desc": "MedusaJS is open-source and free forever. You only pay for hosting (Railway or Render). Over time, you save thousands in transaction fees.",
+      "why_supabase": "Supabase manages your PostgreSQL with automatic backups, user authentication, and row-level security. Your customer data lives in a real database, not a third-party API.",
+      "cost_breakdown": "Estimated Monthly Cost: Railway/Render (~$20-50) + Supabase Free Tier (up to 500MB) = Less than $100/month to start.",
+      "vs_shopify": "Comparison: Shopify charges $79/month + 2% per transaction. If you make $10k/month, you pay $200 just in fees. With MedusaJS, you pay $100 fixed.",
+      "ideal_for": "Ideal for: High-volume e-commerce, Marketplaces, Companies needing complex integrations"
+    },
+    "comparison": {
+      "title": "Quick Comparison",
+      "basic_label": "Basic",
+      "intermediate_label": "Intermediate",
+      "premium_label": "Premium",
+      "time": "Delivery Time",
+      "time_basic": "1-2 weeks",
+      "time_intermediate": "3-4 weeks",
+      "time_premium": "6-8 weeks",
+      "complexity": "Complexity",
+      "complexity_basic": "Low",
+      "complexity_intermediate": "Medium",
+      "complexity_premium": "High",
+      "maintenance": "Monthly Maintenance",
+      "maintenance_basic": "Minimal (Vercel handles it)",
+      "maintenance_intermediate": "Low (Shopify + Supabase)",
+      "maintenance_premium": "Moderate (you control everything)"
+    },
+    "cta": {
+      "title": "Not Sure Which to Choose?",
+      "desc": "Schedule a free 30-minute consultation. We'll analyze your business and recommend the ideal solution.",
+      "button": "Schedule Free Consultation"
+    }
+  },
+  "About": {
+    "title": "More Than Just Code.",
+    "p1": "Hi, I'm a passionate Full Stack Developer with a deep focus on <b>performance</b> and <b>user experience</b>. I don't just build websites; I build digital products that solve real business problems.",
+    "p2": "With years of experience in the modern JavaScript ecosystem (React, Node.js, TypeScript), I help startups and established companies transition to modern, scalable architectures like Next.js and Serverless.",
+    "p3": "My philosophy is simple: <b>Make it fast, make it secure, and make it beautiful.</b>",
+    "experience_title": "Experience",
+    "experience_items": {
+      "0": "5+ Years Full Stack Dev",
+      "1": "Senior React Specialist",
+      "2": "Software Architect"
+    },
+    "education_title": "Education",
+    "education_items": {
+      "0": "B.S. Computer Science",
+      "1": "AWS Certified Solutions Architect",
+      "2": "Meta Frontend Developer Cert"
+    }
+  }
+}

@@ -28,7 +28,7 @@ export default function Home() {
             {t('description')}
           </p>
           <div style={{ marginTop: '40px', display: 'flex', gap: '16px' }}>
-            <a href="#contact" className="btn-primary">
+            <a href="https://wa.me/+5566999318742" target="_blank" rel="noopener noreferrer" className="btn-primary">
               {t('cta_primary')}
             </a>
             <Link href="/work" className="btn-secondary">
@@ -81,7 +81,7 @@ export default function Home() {
           <p style={{ fontSize: '1.25rem', marginBottom: '40px' }}>
             {t('ready.desc')}
           </p>
-          <a href="mailto:contact@example.com" className="btn-primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
+          <a href="https://wa.me/+5566999318742" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
             {t('ready.button')}
           </a>
         </div>

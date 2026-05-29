@@ -1,40 +1,53 @@
 {
   "Navigation": {
-    "work": "Work",
-    "services": "Services",
-    "about": "About",
+    "cv": "Visual Comm",
+    "mp": "Marketing",
+    "wd": "Web & Mobile Dev",
+    "tools": "Tools",
     "contact": "Let's Talk"
   },
-  "Home": {
-    "badge": "Available for New Projects",
-    "title_start": "Building",
-    "title_highlight": "Digital Excellence",
-    "title_end": "for Forward-Thinking Brands.",
-    "description": "I help businesses launch secure, high-performance web applications that convert. Full-stack expertise with a focus on speed, scalability, and premium user experiences.",
-    "cta_primary": "Start Your Project",
-    "cta_secondary": "View Work",
-    "powered_by": "Powered by Modern Tech",
-    "powered_desc": "Leveraging the best tools for the job.",
-    "features": {
-      "performance": {
-        "title": "Performance First",
-        "desc": "Speed is a feature. I architect applications that load instantly and perform seamlessly under load."
-      },
-      "security": {
-        "title": "Secure by Design",
-        "desc": "Security isn't an afterthought. From database protection to API authentication, I implement industry-standard security measures."
-      },
-      "scalability": {
-        "title": "Scalable Architecture",
-        "desc": "Built on Next.js and Serverless infrastructure, your application scales automatically with traffic."
-      }
+    "Home": {
+        "badge": "Professional Portfolio",
+        "name": "jean m. da s. leite",
+        "tagline": "Graphic Design • Industrial Print • Web & Mobile Dev",
+        "description": "Combining the power of visual design, the precision of industrial printing, and modern software development. I transform concepts into exceptional physical and digital products from end to end.",
+        "cta_primary": "Let's Talk",
+        "cta_secondary": "View Portfolio",
+        "sections": {
+            "cv": {
+                "title": "Visual Communication",
+                "subtitle": "Visual identity projects, signage, and large format industrial printing.",
+                "item1": "Visual Identity & Branding",
+                "item2": "Outdoor Storefront Signage",
+                "item3": "Large Format Industrial Printing",
+                "item4": "Vehicle Fleet Wrapping",
+                "item5": "Signboards & Display Panels",
+                "item6": "Promotional Banners & Tarpaulins"
+            },
+            "mp": {
+                "title": "Advertising Marketing",
+                "subtitle": "Digital campaigns, social media visual content, and high-impact promotional assets.",
+                "item1": "Digital Advertising Campaign",
+                "item2": "Social Media & Visual Content",
+                "item3": "Product Packaging Design",
+                "item4": "Sales Catalogues & Flyers",
+                "item5": "Magazine & Print Media Ads",
+                "item6": "Brand Mockups & Sales Presentations"
+            },
+            "wd": {
+                "title": "Web and Mobile Developer",
+                "subtitle": "Modern web applications, fast websites, and responsive mobile apps.",
+                "item1": "Mobile Delivery App (React Native)",
+                "item2": "High-Performance E-commerce (Next.js & Supabase)",
+                "item3": "Optimized Corporate Landing Page"
+            },
+            "tools": {
+                "title": "Technologies & Tools",
+                "subtitle": "Leveraging the best industry-standard tools to create modern, performant, and scalable projects.",
+                "text": "Utilizando as melhores ferramentas: Next.js, TypeScript, Supabase, Node.js, React, Vercel, React-Native."
+            }
+        }
     },
-    "ready": {
-      "title": "Ready to Scale?",
-      "desc": "Let's turn your vision into a high-performing reality. Book a discovery call or send an email to get started.",
-      "button": "Get in Touch"
-    }
-  },
   "Work": {
     "title": "Selected Work",
     "subtitle": "A collection of projects where performance, security, and user experience were paramount.",

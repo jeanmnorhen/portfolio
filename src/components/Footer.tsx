@@ -9,7 +9,7 @@ export default function Footer() {
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>
-                    &copy; {new Date().getFullYear()} Senior Dev Portfolio. All rights reserved.
+                    &copy; {new Date().getFullYear()} Jean M. da S. Leite. All rights reserved.
                 </div>
                 <div style={{ display: 'flex', gap: '24px' }}>
                     <a href="#" className="footer-link">GitHub</a>

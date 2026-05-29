@@ -26,15 +26,18 @@ export default function Header() {
                     Portfolio<span style={{ color: 'var(--accent-primary)' }}>.</span>
                 </Link>
 
-                <nav style={{ display: 'flex', gap: '32px' }}>
-                    <Link href="/work" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>
-                        {t('work')}
+                <nav style={{ display: 'flex', gap: '24px' }}>
+                    <Link href="/#comunicacao-visual" className="nav-link">
+                        {t('cv')}
                     </Link>
-                    <Link href="/services" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>
-                        {t('services')}
+                    <Link href="/#marketing-publicitario" className="nav-link">
+                        {t('mp')}
                     </Link>
-                    <Link href="/about" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>
-                        {t('about')}
+                    <Link href="/#dev-web-mobile" className="nav-link">
+                        {t('wd')}
+                    </Link>
+                    <Link href="/#ferramentas" className="nav-link">
+                        {t('tools')}
                     </Link>
                 </nav>
 

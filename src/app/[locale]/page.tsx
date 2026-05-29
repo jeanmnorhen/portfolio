@@ -430,8 +430,7 @@ export default function Home() {
       <section className="tools-section section-padding" id="ferramentas">
         <div className="container">
           <div className="tools-title-container">
-            <span className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.tools.title')}</span>
-            <h2>{t('sections.tools.title')}</h2>
+            <span className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.tools.title')}</span>            
             <p style={{ fontSize: '1.15rem' }}>{t('sections.tools.subtitle')}</p>
           </div>
 
@@ -464,7 +463,7 @@ export default function Home() {
             maxWidth: '800px',
             margin: '50px auto 0'
           }}>
-            {t('sections.tools.text')}
+           
           </div>
         </div>
       </section>

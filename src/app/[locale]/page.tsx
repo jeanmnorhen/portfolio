@@ -142,7 +142,7 @@ export default function Home() {
               {t('description')}
             </p>
 
-            <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+            <div className="hero-buttons">
               <a href="https://wa.me/+5566999318742" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 {t('cta_primary')}
               </a>
@@ -362,7 +362,7 @@ export default function Home() {
           <p>{t('sections.wd.subtitle')}</p>
         </div>
 
-        <div className="portfolio-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))' }}>
+        <div className="portfolio-grid">
           {/* Card 1 */}
           <div className="portfolio-card" onClick={() => openLightbox('wd1')} style={{ cursor: 'pointer' }}>
             <div className="portfolio-image-wrapper">

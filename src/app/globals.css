@@ -104,6 +104,12 @@ a {
   padding: 0 24px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
 .glass {
   background: var(--glass-bg);
   backdrop-filter: blur(20px);
@@ -157,6 +163,12 @@ a {
   padding: 100px 0;
 }
 
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+}
+
 /* Hero Section */
 .hero-wrapper {
   min-height: 90vh;
@@ -173,6 +185,18 @@ a {
     padding-top: 40px;
     padding-bottom: 60px;
     gap: 40px;
+  }
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 968px) {
+  .hero-buttons {
+    justify-content: center;
   }
 }
 
@@ -222,6 +246,13 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 20px;
+  }
 }
 
 /* Portfolio Card */

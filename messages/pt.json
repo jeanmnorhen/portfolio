@@ -16,23 +16,23 @@
         "sections": {
             "cv": {
                 "title": "Comunicação Visual",
-                "subtitle": "Projeto de Comunicação Visual de externa",
-                "item1": "Projeto de Comunicação Visual de externa",
-                "item2": "Projeto de Comunicação Visual de externa",
-                "item3": "Projeto de Comunicação Visual de externa",
-                "item4": "Projeto de Comunicação Visual de externa",
-                "item5": "Projeto de Comunicação Visual de externa",
-                "item6": "Projeto de Comunicação Visual de externa"
+                "subtitle": "Projeto de Comunicação Visual externa",
+                "item1": "Projeto de Comunicação Visual externa",
+                "item2": "Projeto de Comunicação Visual externa",
+                "item3": "Projeto de Comunicação Visual externa",
+                "item4": "Projeto de Comunicação Visual externa",
+                "item5": "Projeto de Comunicação Visual externa",
+                "item6": "Projeto de Comunicação Visual externa"
             },
             "mp": {
                 "title": "Marketing Publicitário",
                 "subtitle": "Campanhas digitais, conteúdo visual para mídias e materiais promocionais de impacto.",
                 "item1": "Campanha Publicitária Digital",
-                "item2": "Social Media & Conteúdo Visual",
-                "item3": "Design de Embalagens de Produtos",
-                "item4": "Catálogos e Folhetos Comerciais",
-                "item5": "Anúncios de Revista e Mídia Impressa",
-                "item6": "Mockups & Apresentações Comerciais"
+                "item2": "Campanha Publicitária Digital",
+                "item3": "Campanha Publicitária Digital",
+                "item4": "Campanha Publicitária Digital",
+                "item5": "Campanha Publicitária Digital",
+                "item6": "Campanha Publicitária Digital"
             },
             "wd": {
                 "title": "Desenvolvedor Web e Mobile",

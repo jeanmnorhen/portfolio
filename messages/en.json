@@ -1,193 +1,190 @@
 {
-    "Navigation": {
-        "cv": "Comunicação Visual",
-        "mp": "Marketing",
-        "wd": "Dev Web & Mobile",
-        "tools": "Ferramentas",
-        "contact": "Fale Comigo"
-    },
-    "Home": {
-        "badge": "Portfólio Profissional",
-        "name": "jean m. da s. leite",
-        "tagline": "Design Gráfico • Impressão Industrial • Dev Web & Mobile",
-        "description": "Design gráfico, tenho experiência em projeto de comunicação visual interna e externa, impressão industrial, prototipagem de produtos, campanhas publicitárias e desenvolvimento de sites e aplicativos.",
-        "cta_primary": "Fale Comigo",
-        "cta_secondary": "Ver Portfolio",
-        "sections": {
-            "cv": {
-                "title": "Comunicação Visual",
-                "subtitle": "Projeto de Comunicação Visual externa",
-                "item1": "Projeto de Comunicação Visual externa",
-                "item2": "Projeto de Comunicação Visual externa",
-                "item3": "Projeto de Comunicação Visual externa",
-                "item4": "Projeto de Comunicação Visual externa",
-                "item5": "Projeto de Comunicação Visual externa",
-                "item6": "Projeto de Comunicação Visual externa"
-            },
-            "mp": {
-                "title": "Marketing Publicitário",
-                "subtitle": "Campanhas digitais, conteúdo visual para mídias e materiais promocionais de impacto.",
-                "item1": "Campanha Publicitária Digital",
-                "item2": "Campanha Publicitária Digital",
-                "item3": "Campanha Publicitária Digital",
-                "item4": "Campanha Publicitária Digital",
-                "item5": "Campanha Publicitária Digital",
-                "item6": "Campanha Publicitária Digital"
-            },
-            "wd": {
-                "title": "Desenvolvedor Web e Mobile",
-                "subtitle": "Aplicações modernas, sites rápidos e aplicativos móveis responsivos.",
-                "item1": "Chamadas de vídeo p2p com tradução simultânea local.",
-                "item2": "Loja de Relógios",
-                "item3": "Landing Page Corporativa Otimizada"
-            },
-            "tools": {
-                "title": "Tecnologias & Ferramentas",
-                "subtitle": "Utilizando as melhores ferramentas para criar projetos modernos, performáticos e escaláveis.",
-                "text": "Utilizando as melhores ferramentas: Next.js, TypeScript, Supabase, Node.js, React, Vercel, React-Native."
-            }
-        }
-    },
-    "Work": {
-        "title": "Projetos Selecionados",
-        "subtitle": "Uma coleção de projetos onde performance, segurança e experiência do usuário foram fundamentais.",
-        "projects": {
-            "basic": {
-                "title": "UltraFast - Landing Page de Conversão",
-                "desc": "Página de destino focada em performance para máxima conversão de leads. Com efeitos de brilho, entrega via Edge e ISR para atualizações em tempo real."
-            },
-            "standard": {
-                "title": "Moderna - Shopify Headless",
-                "desc": "Loja virtual premium usando a API do Shopify. Combina o robusto motor de e-commerce do Shopify com um frontend Next.js personalizado de alta performance."
-            },
-            "premium": {
-                "title": "AURUM - Loja de Luxo Exclusiva",
-                "desc": "Experiência de compra de luxo de nível enterprise. Arquitetura desacoplada com MedusaJS e Supabase, projetada para marcas que exigem controle total."
-            },
-            "p1": {
-                "title": "Dashboard Analítico E-Commerce",
-                "desc": "Dashboard de analytics avançado integrado ao motor de commerce MedusaJS. Monitoramento em tempo real de vendas, inventário e comportamento do cliente com visualização de dados de alta performance."
-            }
-        }
-    },
-    "Services": {
-        "badge": "Pacotes de Serviço",
-        "title": "Soluções Sob Medida para Cada Estágio do Seu Negócio",
-        "subtitle": "Do lançamento rápido ao e-commerce profissional. Escolha o pacote que se alinha com seus objetivos e escale quando estiver pronto.",
-        "basic": {
-            "title": "Pacote Básico — Landing Pages (Foco em Conversão)",
-            "tagline": "Ideal para Lançamentos e Captação de Leads",
-            "price": "R$ 1.657",
-            "desc": "Ideal para lançamentos de produtos, profissionais liberais ou captura de leads. Site funcional otimizado para conversão com entrega rápida.",
-            "tech_title": "Tecnologia Principal",
-            "tech_stack": "Next.js 15 + Vercel Edge Network + ISR (Incremental Static Regeneration)",
-            "features": {
-                "0": "1 página otimizada para conversão",
-                "1": "Otimização de velocidade",
-                "2": "Configuração de hospedagem",
-                "3": "Ícones de redes sociais",
-                "4": "Formulário de captura (opt-in)",
-                "5": "Design responsivo premium",
-                "6": "1 revisão incluída",
-                "7": "Entrega em 7 dias"
-            },
-            "why_title": "Por que Next.js + ISR?",
-            "why_desc": "ISR permite que você atualize textos, preços ou imagens diretamente pelo painel admin sem precisar de um novo deploy. O site permanece ultra-rápido (estático) mas com flexibilidade de conteúdo dinâmico.",
-            "why_vercel": "Vercel Edge Network garante que seu site carregue em milissegundos em qualquer lugar do mundo — São Paulo, Nova York ou Tóquio.",
-            "ideal_for": "Ideal para: Lançamentos de produtos, Profissionais Liberais, Captura de Leads, Validação de Ideias",
-            "fiverr_link": "https://www.fiverr.com/jeanmdasleite/build-a-high-performance-ecommerce?tier=basic"
-        },
-        "intermediate": {
-            "title": "Pacote Standard — Loja Pequena",
-            "tagline": "Shopify com Performance Moderna",
-            "price": "R$ 5.521",
-            "desc": "Shopify para vender, mas em um site que tem a 'cara' e a velocidade de uma aplicação moderna. Perfeito para lojas em crescimento.",
-            "tech_title": "Arquitetura Híbrida",
-            "tech_stack": "Next.js + Shopify Storefront API + Supabase (PostgreSQL) + Vercel",
-            "features": {
-                "0": "Site funcional completo",
-                "1": "Funcionalidade de e-commerce",
-                "2": "Integração de pagamentos",
-                "3": "Otimização de velocidade",
-                "4": "Configuração de hospedagem",
-                "5": "Ícones de redes sociais",
-                "6": "Até 5 páginas",
-                "7": "3 revisões incluídas",
-                "8": "Entrega em 10 dias"
-            },
-            "why_title": "Por que Shopify Headless?",
-            "why_desc": "O Shopify cuida do que ele faz de melhor: pagamentos, inventário e logística. O frontend customizado adiciona a velocidade e a aparência profissional que o Shopify básico não oferece.",
-            "why_supabase": "Supabase oferece um banco de dados PostgreSQL real com Row Level Security (RLS), garantindo que os dados dos seus clientes estejam protegidos no nível de linha.",
-            "combo_power": "O Combo: Você tem a confiabilidade do Shopify + a liberdade criativa de um app customizado.",
-            "ideal_for": "Ideal para: Lojas pequenas, E-commerce em crescimento, Marcas que querem se destacar",
-            "fiverr_link": "https://www.fiverr.com/jeanmdasleite/build-a-high-performance-ecommerce?tier=standard"
-        },
-        "premium": {
-            "title": "Pacote Premium — Loja Profissional",
-            "tagline": "E-Commerce Completo e Profissional",
-            "price": "R$ 11.041",
-            "desc": "Loja completa profissional com segurança, histórico de compras e carrinho. Solução enterprise para quem quer escalar com controle total.",
-            "tech_title": "Stack Enterprise",
-            "tech_stack": "MedusaJS (Node.js) + Supabase (PostgreSQL + Auth) + Next.js + Railway/Render",
-            "features": {
-                "0": "Site funcional completo",
-                "1": "Funcionalidade de e-commerce avançada",
-                "2": "Integração de pagamentos",
-                "3": "Otimização de velocidade",
-                "4": "Configuração de hospedagem",
-                "5": "Ícones de redes sociais",
-                "6": "Até 10 páginas",
-                "7": "5 revisões incluídas",
-                "8": "Entrega em 14 dias"
-            },
-            "why_title": "Por que MedusaJS?",
-            "why_desc": "MedusaJS é open-source e gratuito para sempre. Você paga apenas pela hospedagem. Com histórico de compras, carrinho avançado e segurança enterprise, é a solução completa para lojas profissionais.",
-            "why_supabase": "Supabase gerencia seu PostgreSQL com backups automáticos, autenticação de usuários e segurança em nível de linha. Seus dados de clientes ficam em um banco real, não em uma API de terceiros.",
-            "cost_breakdown": "Inclui: Loja completa, histórico de compras, carrinho profissional, segurança avançada, e muito mais.",
-            "vs_shopify": "Diferencial: Controle total do código e dados, sem taxas de transação extras, escalabilidade ilimitada.",
-            "ideal_for": "Ideal para: Lojas profissionais, E-commerce com alto volume, Empresas que precisam de controle total",
-            "fiverr_link": "https://www.fiverr.com/jeanmdasleite/build-a-high-performance-ecommerce?tier=premium"
-        },
-        "comparison": {
-            "title": "Comparação Rápida",
-            "basic_label": "Básico",
-            "intermediate_label": "Standard",
-            "premium_label": "Premium",
-            "time": "Tempo de Entrega",
-            "time_basic": "7 dias",
-            "time_intermediate": "10 dias",
-            "time_premium": "14 dias",
-            "complexity": "Número de Páginas",
-            "complexity_basic": "1 página",
-            "complexity_intermediate": "5 páginas",
-            "complexity_premium": "10 páginas",
-            "maintenance": "Revisões",
-            "maintenance_basic": "1 revisão",
-            "maintenance_intermediate": "3 revisões",
-            "maintenance_premium": "5 revisões"
-        },
-        "cta": {
-            "title": "Não Sabe Qual Escolher?",
-            "desc": "Agende uma consultoria gratuita de 30 minutos. Vamos analisar seu negócio e recomendar a solução ideal.",
-            "button": "Agendar Consultoria Gratuita"
-        }
-    },
-    "About": {
-        "title": "Mais que Apenas Código.",
-        "p1": "Olá, sou um Desenvolvedor Full Stack apaixonado com foco profundo em <b>performance</b> e <b>experiência do usuário</b>. Eu não apenas crio sites; crio produtos digitais que resolvem problemas reais de negócio.",
-        "p2": "Com anos de experiência no ecossistema JavaScript moderno (React, Node.js, TypeScript), ajudo startups e empresas estabelecidas a transicionar para arquiteturas modernas e escaláveis como Next.js e Serverless.",
-        "p3": "Minha filosofia é simples: <b>Faça rápido, faça seguro e faça bonito.</b>",
-        "experience_title": "Experiência",
-        "experience_items": {
-            "0": "5+ Anos Full Stack Dev",
-            "1": "Especialista React Senior",
-            "2": "Arquiteto de software"
-        },
-        "education_title": "Educação",
-        "education_items": {
-            "0": "B.S. Ciência da Computação",
-            "1": "Arquiteto de Soluções AWS Certificado",
-            "2": "Certificação Meta Frontend Dev"
-        }
+  "Navigation": {
+    "cv": "Visual Communication",
+    "mp": "Marketing",
+    "wd": "Web & Mobile Dev",
+    "tools": "Tools",
+    "contact": "Contact"
+  },
+  "Home": {
+    "badge": "Professional Portfolio",
+    "name": "jean m. da s. leite",
+    "tagline": "Graphic Design • Industrial Print • Web & Mobile Dev",
+    "description": "Graphic design, I have experience in internal and external visual communication projects, industrial printing, product prototyping, advertising campaigns, and website and application development.",
+    "cta_primary": "Contact Me",
+    "cta_secondary": "View Portfolio",
+    "sections": {
+      "cv": {
+        "title": "Visual Communication",
+        "subtitle": "External Visual Communication Project",
+        "item1": "External Visual Communication Project",
+        "item2": "External Visual Communication Project",
+        "item3": "External Visual Communication Project",
+        "item4": "External Visual Communication Project",
+        "item5": "External Visual Communication Project",
+        "item6": "External Visual Communication Project"
+      },
+      "mp": {
+        "title": "Advertising Marketing",
+        "subtitle": "Digital campaigns, visual content for media and impactful promotional materials.",
+        "item1": "Digital Advertising Campaign",
+        "item2": "Digital Advertising Campaign",
+        "item3": "Digital Advertising Campaign",
+        "item4": "Digital Advertising Campaign",
+        "item5": "Digital Advertising Campaign",
+        "item6": "Digital Advertising Campaign"
+      },
+      "wd": {
+        "title": "Web and Mobile Developer",
+        "subtitle": "Modern applications, fast sites and responsive mobile apps.",
+        "item1": "Peer-to-peer video calls with local simultaneous translation.",
+        "item2": "Watch Store",
+        "item3": "Optimized Corporate Landing Page"
+      },
+      "tools": {
+        "title": "Technologies & Tools",
+        "subtitle": "Using the best tools to create modern, performant, scalable projects.",
+        "text": "Utilizando as melhores ferramentas: Next.js, TypeScript, Supabase, Node.js, React, Vercel, React-Native."
+      }
     }
+  },
+  "Work": {
+    "title": "Selected Projects",
+    "subtitle": "A collection of projects where performance, security and user experience were essential.",
+    "projects": {
+      "basic": {
+        "title": "UltraFast - Conversion Landing Page",
+        "desc": "Performance-focused landing page for maximum lead conversion. Includes glow effects, edge delivery, and ISR for real-time updates."
+      },
+      "standard": {
+        "title": "Moderna - Shopify Headless",
+        "desc": "Premium virtual store using the Shopify API. Combines Shopify's robust commerce engine with a custom high-performance Next.js frontend."
+      },
+      "premium": {
+        "title": "AURUM - Exclusive Luxury Store",
+        "desc": "Enterprise-level luxury shopping experience. Decoupled architecture with MedusaJS and Supabase, designed for brands requiring full control."
+      },
+      "p1": {
+        "title": "E-Commerce Analytics Dashboard",
+        "desc": "Advanced analytics dashboard integrated with MedusaJS commerce engine. Real-time monitoring of sales, inventory, and customer behavior with high-performance data visualization."
+      }
+    }
+  },
+  "Services": {
+    "badge": "Service Packages",
+    "title": "Tailored Solutions for Every Stage of Your Business",
+    "subtitle": "From rapid launch to professional e-commerce. Choose the package that aligns with your goals and scale when ready.",
+    "basic": {
+      "title": "Basic Package — Landing Pages (Conversion Focused)",
+      "tagline": "Ideal for Launches and Lead Capture",
+      "price": "R$ 1.657",
+      "desc": "Ideal for product launches, freelancers or lead capture. Functional website optimized for conversion with fast delivery.",
+      "tech_title": "Main Technology",
+      "tech_stack": "Next.js 15 + Vercel Edge Network + ISR (Incremental Static Regeneration)",
+      "features": {
+        "0": "1 conversion-optimized page",
+        "1": "Speed optimization",
+        "2": "Hosting setup",
+        "3": "Social media icons",
+        "4": "Opt-in form",
+        "5": "Premium responsive design",
+        "6": "1 revision included",
+        "7": "7-day delivery"
+      },
+      "why_title": "Why Next.js + ISR?",
+      "why_desc": "ISR allows you to update text, prices or images directly through an admin panel without needing a new deployment. The site remains ultra-fast (static) but with the flexibility of dynamic content.",
+      "why_vercel": "Vercel Edge Network ensures your site loads in milliseconds anywhere in the world — São Paulo, New York or Tokyo.",
+      "ideal_for": "Ideal for: Product launches, freelancers, lead capture, idea validation"
+    },
+    "intermediate": {
+      "title": "Standard Package — Small Store",
+      "tagline": "Shopify with Modern Performance",
+      "price": "R$ 5.521",
+      "desc": "Shopify for selling, but in a site that has the 'look' and speed of a modern application. Perfect for growing stores.",
+      "tech_title": "Hybrid Architecture",
+      "tech_stack": "Next.js + Shopify Storefront API + Supabase (PostgreSQL) + Vercel",
+      "features": {
+        "0": "Fully functional website",
+        "1": "E-commerce functionality",
+        "2": "Payment integration",
+        "3": "Speed optimization",
+        "4": "Hosting setup",
+        "5": "Social media icons",
+        "6": "Up to 5 pages",
+        "7": "3 revisions included",
+        "8": "10-day delivery"
+      },
+      "why_title": "Why Headless Shopify?",
+      "why_desc": "Shopify handles what it does best: payments, inventory and logistics. The custom frontend adds the speed and professional appearance that basic Shopify doesn't offer.",
+      "why_supabase": "Supabase provides a real PostgreSQL database with Row Level Security (RLS), ensuring your customers' data is protected at the row level.",
+      "combo_power": "The Combo: You have Shopify's reliability + the creative freedom of a custom app.",
+      "ideal_for": "Ideal for: Small stores, growing e-commerce, brands that want to stand out"
+    },
+    "premium": {
+      "title": "Premium Package — Professional Store",
+      "tagline": "Complete and Professional E-Commerce",
+      "price": "R$ 11.041",
+      "desc": "Complete professional store with security, purchase history and cart. Enterprise solution for those who want to scale with total control.",
+      "tech_title": "Enterprise Stack",
+      "tech_stack": "MedusaJS (Node.js) + Supabase (PostgreSQL + Auth) + Next.js + Railway/Render",
+      "features": {
+        "0": "Fully functional website",
+        "1": "Advanced e-commerce functionality",
+        "2": "Payment integration",
+        "3": "Speed optimization",
+        "4": "Hosting setup",
+        "5": "Social media icons",
+        "6": "Up to 10 pages",
+        "7": "5 revisions included",
+        "8": "14-day delivery"
+      },
+      "why_title": "Why MedusaJS?",
+      "why_desc": "MedusaJS is open-source and free forever. You only pay for hosting. With purchase history, advanced cart and enterprise security, it's the complete solution for professional stores.",
+      "why_supabase": "Supabase manages your PostgreSQL with automatic backups, user authentication and row-level security. Your customers' data lives in a real database, not a third‑party API.",
+      "cost_breakdown": "Includes: Complete store, purchase history, professional cart, advanced security and much more.",
+      "vs_shopify": "Differentiator: Total control of code and data, no extra transaction fees, unlimited scalability.",
+      "ideal_for": "Ideal for: Professional stores, high‑volume e‑commerce, companies needing total control"
+    },
+    "comparison": {
+      "title": "Quick Comparison",
+      "basic_label": "Basic",
+      "intermediate_label": "Standard",
+      "premium_label": "Premium",
+      "time": "Delivery Time",
+      "time_basic": "7 days",
+      "time_intermediate": "10 days",
+      "time_premium": "14 days",
+      "complexity": "Number of Pages",
+      "complexity_basic": "1 page",
+      "complexity_intermediate": "5 pages",
+      "complexity_premium": "10 pages",
+      "maintenance": "Revisions",
+      "maintenance_basic": "1 revision",
+      "maintenance_intermediate": "3 revisions",
+      "maintenance_premium": "5 revisions"
+    },
+    "cta": {
+      "title": "Not Sure Which to Choose?",
+      "desc": "Schedule a free 30‑minute consultation. We'll analyze your business and recommend the ideal solution.",
+      "button": "Schedule Free Consultation"
+    }
+  },
+  "About": {
+    "title": "More Than Just Code.",
+    "p1": "Hi, I'm a passionate Full Stack Developer with a deep focus on <b>performance</b> and <b>user experience</b>. I don't just build websites; I build digital products that solve real business problems.",
+    "p2": "With years of experience in the modern JavaScript ecosystem (React, Node.js, TypeScript), I help startups and established companies transition to modern, scalable architectures like Next.js and Serverless.",
+    "p3": "My philosophy is simple: <b>Make it fast, make it secure, make it beautiful.</b>",
+    "experience_title": "Experience",
+    "experience_items": {
+      "0": "5+ Years Full Stack Dev",
+      "1": "Senior React Specialist",
+      "2": "Software Architect"
+    },
+    "education_title": "Education",
+    "education_items": {
+      "0": "B.S. Computer Science",
+      "1": "AWS Certified Solutions Architect",
+      "2": "Meta Frontend Developer Cert"
+    }
+  }
 }

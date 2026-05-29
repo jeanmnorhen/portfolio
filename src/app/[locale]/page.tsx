@@ -58,7 +58,6 @@ export default function Home() {
     { id: 'mp6', src: mp6, titleKey: 'sections.mp.item6', sectionKey: 'sections.mp.title' },
     { id: 'wd1', src: wd1, titleKey: 'sections.wd.item1', sectionKey: 'sections.wd.title' },
     { id: 'wd2', src: wd2, titleKey: 'sections.wd.item2', sectionKey: 'sections.wd.title' },
-    { id: 'wd3', src: wd3, titleKey: 'sections.wd.item3', sectionKey: 'sections.wd.title' },
   ];
 
   // Open Lightbox to specific item
@@ -399,20 +398,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Card 3 */}
-          <div className="portfolio-card" onClick={() => openLightbox('wd3')} style={{ cursor: 'pointer' }}>
-            <div className="portfolio-image-wrapper">
-              <Image src={wd3} alt={t('sections.wd.item3')} className="portfolio-img" placeholder="blur" />
-              <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.wd.title')}</span>
-                <h4 className="portfolio-caption">{t('sections.wd.item3')}</h4>
-              </div>
-            </div>
-            <div className="portfolio-info">
-              <h4>{t('sections.wd.item3')}</h4>
-              <p>{t('sections.wd.title')}</p>
-            </div>
-          </div>
         </div>
       </section>
 

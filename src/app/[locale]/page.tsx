@@ -449,22 +449,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div style={{
-            textAlign: 'center',
-            marginTop: '40px',
-            fontSize: '1.2rem',
-            fontWeight: 550,
-            color: 'var(--text-secondary)',
-            letterSpacing: '-0.01em',
-            padding: '20px',
-            borderRadius: 'var(--radius-md)',
-            background: 'rgba(255, 255, 255, 0.01)',
-            border: '1px dashed var(--border-subtle)',
-            maxWidth: '800px',
-            margin: '50px auto 0'
-          }}>
-           
-          </div>
+   
         </div>
       </section>
 

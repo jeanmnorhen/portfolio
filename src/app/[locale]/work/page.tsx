@@ -25,7 +25,7 @@ export default function WorkPage() {
             <div style={{ maxWidth: '800px', marginBottom: '80px' }}>
                 <h1 style={{ fontSize: '3.5rem', marginBottom: '24px' }}>{t('title')}</h1>
                 <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)' }}>
-                    {t('subtitle')}
+                    {t('tool')}
                 </p>
             </div>
 

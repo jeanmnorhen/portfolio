@@ -57,7 +57,7 @@ export default function Home() {
     { id: 'mp4', src: mp4, titleKey: 'sections.mp.item4', sectionKey: 'sections.mp.title' },
     { id: 'mp5', src: mp5, titleKey: 'sections.mp.item5', sectionKey: 'sections.mp.title' },
     { id: 'mp6', src: mp6, titleKey: 'sections.mp.item6', sectionKey: 'sections.mp.title' },
-    { id: 'wd1', src: wd1, titleKey: 'sections.wd.item1', sectionKey: 'sections.wd.title' },
+    { id: 'wd1', src: <a href="https://medusa-premium-store.vercel.app/">wd1</a>, titleKey: 'sections.wd.item1', sectionKey: 'sections.wd.title' },
     { id: 'wd2', src: wd2, titleKey: 'sections.wd.item2', sectionKey: 'sections.wd.title' },
     { id: 'wd3', src: wd3, titleKey: 'sections.wd.item3', sectionKey: 'sections.wd.title' },
   ];

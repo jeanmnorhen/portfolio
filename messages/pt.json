@@ -37,8 +37,8 @@
             "wd": {
                 "title": "Desenvolvedor Web e Mobile",
                 "subtitle": "Aplicações modernas, sites rápidos e aplicativos móveis responsivos.",
-                "item1": "Aplicativo de Delivery Mobile (React Native)",
-                "item2": "E-commerce de Alta Performance (Next.js & Supabase)",
+                "item1": "Videochamada p2p com tradução simultânea local.",
+                "item2": "Loja de Relógios",
                 "item3": "Landing Page Corporativa Otimizada"
             },
             "tools": {

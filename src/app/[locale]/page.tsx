@@ -352,22 +352,6 @@ export default function Home() {
               <p>{t('sections.mp.title')}</p>
             </div>
           </div>
-
-          {/* Card 6 */}
-          <div className="portfolio-card" onClick={() => openLightbox('mp6')} style={{ cursor: 'pointer' }}>
-            <div className="portfolio-image-wrapper">
-              <Image src={mp6} alt={t('sections.mp.item6')} className="portfolio-img" placeholder="blur" />
-              <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
-                <h4 className="portfolio-caption">{t('sections.mp.item6')}</h4>
-              </div>
-            </div>
-            <div className="portfolio-info">
-              <h4>{t('sections.mp.item6')}</h4>
-              <p>{t('sections.mp.title')}</p>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Seção 3: Desenvolvedor Web e Mobile */}

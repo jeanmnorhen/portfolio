@@ -390,8 +390,7 @@ export default function Home() {
             </div>
             <div className="portfolio-info">
               <a href="https://thermal-match.vercel.app/pt" target="_blank" rel="noopener noreferrer" >
-              <h4>{t('sections.wd.item1')}</h4>
-               <p>{t('sections.wd.title')}</p>
+              <h4>"Link para o site"</h4>
                </a>
               
             </div>

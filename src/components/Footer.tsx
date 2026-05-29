@@ -13,7 +13,7 @@ export default function Footer() {
                 </div>
                 <div style={{ display: 'flex', gap: '24px' }}>
                     <a href="#" className="footer-link">GitHub</a>
-                    <a href="#" className="footer-link">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/jean-leite-319691235/" className="footer-link">LinkedIn</a>
                     <a href="#" className="footer-link">Twitter</a>
                 </div>
             </div>

@@ -390,7 +390,8 @@ export default function Home() {
             </div>
             <div className="portfolio-info">
               <a href="https://thermal-match.vercel.app/pt" target="_blank" rel="noopener noreferrer" >
-              <h4>"Link para o site"</h4>
+              <h4>Link para o site</h4>
+               <p>{t('sections.wd.title')}</p>
                </a>
               
             </div>
@@ -407,7 +408,7 @@ export default function Home() {
             </div>
             <div className="portfolio-info">
               <a href="https://medusa-premium-store.vercel.app/" target="_blank" rel="noopener noreferrer" >
-              <h4>{t('sections.wd.item2')}</h4>
+              <h4>Link para o site</h4>
                <p>{t('sections.wd.title')}</p>
                </a>
             </div>

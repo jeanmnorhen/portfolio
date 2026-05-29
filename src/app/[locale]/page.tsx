@@ -489,7 +489,11 @@ export default function Home() {
             </button>
 
             {/* Image Container */}
-            <div className="lightbox-image-container">
+            <div className={`lightbox-image-container ${
+              portfolioItems[activeIndex].id === 'cv1' || portfolioItems[activeIndex].id === 'cv2' 
+                ? 'xl-image' 
+                : ''
+            }`}>
               <Image 
                 src={portfolioItems[activeIndex].src} 
                 alt={t(portfolioItems[activeIndex].titleKey)} 

@@ -408,7 +408,7 @@ export default function Home() {
               <div className="portfolio-info">
                 <a href="https://ecommerce-analytics-medusa.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <h4>Link para o site</h4>
-                  <p>Loja de móveis planejados com calculadora de orçamento e painel administrativo completo. Ferramentas: Next.js, TypeScript, Supabase, Stripe, Node.js, React, Vercel.</p>
+                  <p>Loja de móveis planejados com calculadora de orçamento e painel administrativo completo. Ferramentas: Next.js, TypeScript, Supabase, Medusa.js, Node.js, React, Vercel.</p>
                 </a>
               </div>
             </div>

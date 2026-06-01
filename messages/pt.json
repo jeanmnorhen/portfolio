@@ -41,14 +41,14 @@
             "wd": {
                 "title": "Desenvolvedor Web e Mobile",
                 "subtitle": "Aplicações modernas, sites rápidos e aplicativos móveis responsivos.",
-                "item1": "Chamadas de vídeo p2p com tradução simultânea local.",
-                "item2": "Loja de Relógios",
-                "item3": "Landing Page Corporativa Otimizada"
+                "item1": "Chamadas de vídeo p2p, chat de texto com tradução simultânea local.",
+                "item2": "Loja de Relógios completa com pagamento online.",
+                "item3": "Loja de móveis planejados com calculadora de orçamento e pagamento online e painel administrativo"
             },
             "tools": {
                 "title": "Tecnologias & Ferramentas",
                 "subtitle": "Utilizando as melhores ferramentas para criar projetos modernos, performáticos e escaláveis.",
-                "text": "Utilizando as melhores ferramentas: Next.js, TypeScript, Supabase, Node.js, React, Vercel, React-Native."
+                "text": "Utilizando as melhores ferramentas: Figma, Next.js, TypeScript, Supabase, Node.js, React, Vercel, React-Native, Stripe, Medusa.js."
             }
         }
     },

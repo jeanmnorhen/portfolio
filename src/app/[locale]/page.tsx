@@ -389,7 +389,7 @@ export default function Home() {
             <div className="portfolio-info">
               <a href="https://medusa-premium-store.vercel.app/" target="_blank" rel="noopener noreferrer" >
               <h4>Link para o site</h4>
-               <p>Loja completa online com pagamentos (via Stripe) em Débito, Crédito, Pix e carteiras digitais. Ferramentas: Next.js, TypeScript, Supabase, Stripe, Node.js, React, Vercel.</p>
+               <p>Loja completa online com pagamento online (via Stripe) em Débito, Crédito, Pix e carteiras digitais. Ferramentas: Next.js, TypeScript, Supabase, Stripe, Node.js, React, Vercel.</p>
                </a>
             </div>
           </div>
@@ -397,9 +397,9 @@ export default function Home() {
             {/* Card 3 */}
             <div className="portfolio-card" onClick={() => openLightbox('wd3')} style={{ cursor: 'pointer' }}>
               <div className="portfolio-image-wrapper">
-                <Image src={wd3} alt="Atelier Movelaria" className="portfolio-img" placeholder="blur" />
+                <Image src={wd3} alt={t('sections.wd.item3')} className="portfolio-img" placeholder="blur" />
                 <div className="portfolio-overlay">
-                  <h4 className="portfolio-caption">Atelier Movelaria</h4>
+                  <h4 className="portfolio-caption">{t('sections.wd.item3')}</h4>
                 </div>
               </div>
               <div className="portfolio-info">

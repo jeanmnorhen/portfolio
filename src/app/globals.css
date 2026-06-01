@@ -159,6 +159,32 @@ a {
   border-color: rgba(255, 255, 255, 0.15);
 }
 
+.btn-fiverr {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  background: #1dbf73;
+  color: #fff;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 20px -5px rgba(29, 191, 115, 0.4);
+  transition: transform 0.3s var(--ease-spring), box-shadow 0.3s, background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-fiverr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px -5px rgba(29, 191, 115, 0.6);
+  background: #10a85e;
+  color: #fff;
+}
+
+.btn-fiverr:active {
+  transform: translateY(-1px);
+}
+
 .section-padding {
   padding: 100px 0;
 }

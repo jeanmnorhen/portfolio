@@ -13,6 +13,10 @@
     "description": "Graphic design, I have experience in internal and external visual communication projects, industrial printing, product prototyping, advertising campaigns, and website and application development.",
     "cta_primary": "Contact Me",
     "cta_secondary": "View Portfolio",
+    "contact_title": "Ready to transform your idea?",
+    "contact_desc": "Hire our services directly on Fiverr or get in touch via WhatsApp for more information and custom quotes.",
+    "contact_fiverr_btn": "Hire on Fiverr",
+    "contact_whatsapp_btn": "Chat on WhatsApp",
     "sections": {
       "cv": {
         "title": "Visual Communication",

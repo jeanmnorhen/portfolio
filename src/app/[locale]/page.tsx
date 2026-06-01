@@ -484,14 +484,31 @@ export default function Home() {
       }} id="contact">
         <div className="container cta-wrapper">
           <h2 style={{ fontSize: 'clamp(2.2rem, 5vw, 3.5rem)', marginBottom: '24px' }}>
-            Pronto para transformar sua ideia?
+            {t('contact_title')}
           </h2>
           <p style={{ fontSize: '1.2rem', marginBottom: '40px' }}>
-            Seja um projeto de comunicação visual física, sinalização industrial ou o desenvolvimento de um aplicativo web e mobile de alto nível. Vamos conversar sobre como posso te ajudar.
+            {t('contact_desc')}
           </p>
-          <a href="https://wa.me/+5566999318742" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '16px 36px', fontSize: '1.1rem' }}>
-            Iniciar Conversa no WhatsApp
-          </a>
+          <div style={{
+            display: 'flex',
+            gap: '20px',
+            justifyContent: 'center',
+            flexWrap: 'wrap',
+            marginTop: '32px'
+          }}>
+            <a href="https://www.fiverr.com/s/jj9DBYL" target="_blank" rel="noopener noreferrer" className="btn-fiverr" style={{ padding: '16px 36px', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 0H1a1 1 0 00-1 1v22a1 1 0 001 1h22a1 1 0 001-1V1a1 1 0 00-1-1zm-6.72 16.5h-2.12v-5.22c0-.5-.35-.74-.84-.74s-.89.28-.89.74v5.22h-2.11v-5.22c0-.5-.37-.74-.86-.74s-.89.28-.89.74v5.22H7.4V9.67h1.86v.91c.42-.69 1.15-1.04 2-1.04 1 0 1.78.47 2.06 1.25.42-.8 1.25-1.25 2.22-1.25 1.54 0 2.74 1 2.74 2.74v4.22zm-7.65-8.5c-.65 0-1.17-.52-1.17-1.17 0-.65.52-1.17 1.17-1.17.65 0 1.17.52 1.17 1.17 0 .65-.52 1.17-1.17 1.17z"/>
+              </svg>
+              {t('contact_fiverr_btn')}
+            </a>
+            <a href="https://wa.me/+5566999318742" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '16px 36px', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.019-5.114-2.875-6.973-1.857-1.859-4.335-2.88-6.97-2.882-5.437 0-9.863 4.42-9.867 9.864-.001 1.73.457 3.419 1.32 4.933l-.994 3.635 3.722-.975zm11.087-7.4c-.1-.166-.367-.265-.77-.466-.401-.2-2.37-1.17-2.735-1.303-.367-.133-.633-.2-.9.2-.267.4-.77.97-.944 1.17-.173.2-.347.23-.75.03-.4-.2-1.697-.626-3.232-1.996-1.193-1.065-2.0-2.38-2.233-2.78-.234-.4-.025-.617.177-.817.18-.18.4-.466.6-.7.2-.23.267-.4.4-.666.133-.267.067-.5-.033-.7-.1-.2-.9-2.17-1.233-2.97-.33-.8-.662-.689-.9-.7h-.767c-.266 0-.7.1-1.066.5-.367.4-1.4 1.37-1.4 3.3 0 1.93 1.4 3.8 1.6 4.07.2.27 2.756 4.21 6.68 5.91 3.272 1.415 4.022 1.15 5.472.95 1.482-.2 2.735-.85 3.12-1.67.38-.82.38-1.52.26-1.67z"/>
+              </svg>
+              {t('contact_whatsapp_btn')}
+            </a>
+          </div>
         </div>
       </section>
     </main>

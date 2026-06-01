@@ -13,6 +13,10 @@
         "description": "Design gráfico, tenho experiência em projeto de comunicação visual interna e externa, impressão industrial, prototipagem de produtos, campanhas publicitárias e desenvolvimento de sites e aplicativos.",
         "cta_primary": "Fale Comigo",
         "cta_secondary": "Ver Portfolio",
+        "contact_title": "Pronto para transformar sua ideia?",
+        "contact_desc": "Contrate nossos serviços diretamente no Fiverr ou entre em contato pelo WhatsApp para mais informações e orçamentos personalizados.",
+        "contact_fiverr_btn": "Contratar no Fiverr",
+        "contact_whatsapp_btn": "Conversar no WhatsApp",
         "sections": {
             "cv": {
                 "title": "Comunicação Visual",

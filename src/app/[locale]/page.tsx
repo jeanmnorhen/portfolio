@@ -170,7 +170,7 @@ export default function Home() {
       {/* Seção 1: Comunicação Visual */}
       <section className="container section-padding" id="comunicacao-visual" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <h2 className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.cv.title')}</h2>
+          <span className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.cv.title')}</span>
           <p>{t('sections.cv.subtitle')}</p>
         </div>
 
@@ -256,7 +256,7 @@ export default function Home() {
       {/* Seção 2: Marketing Publicitário */}
       <section className="container section-padding" id="marketing-publicitario" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <h2 className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.mp.title')}</h2>
+          <span className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.mp.title')}</span>
           <p>{t('sections.mp.subtitle')}</p>
         </div>
 
@@ -356,7 +356,7 @@ export default function Home() {
       {/* Seção 3: Desenvolvedor Web e Mobile */}
       <section className="container section-padding" id="dev-web-mobile" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <h2 className="portfolio-tag" style={{ margin: '0 0 12px',  color: '#f472b6' }}>{t('sections.wd.title')}</h2>
+          <span className="portfolio-tag" style={{ margin: '0 0 12px',  color: '#f472b6' }}>{t('sections.wd.title')}</span>
           <p>{t('sections.wd.subtitle')}</p>
         </div>
 

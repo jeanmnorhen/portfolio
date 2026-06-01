@@ -58,6 +58,7 @@ export default function Home() {
     { id: 'mp6', src: mp6, titleKey: 'sections.mp.item6', sectionKey: 'sections.mp.title' },
     { id: 'wd1', src: wd1, titleKey: 'sections.wd.item1', sectionKey: 'sections.wd.title' },
     { id: 'wd2', src: wd2, titleKey: 'sections.wd.item2', sectionKey: 'sections.wd.title' },
+    { id: 'wd3', src: wd3, titleKey: 'sections.wd.item3', sectionKey: 'sections.wd.title' },
   ];
 
   // Open Lightbox to specific item
@@ -169,8 +170,7 @@ export default function Home() {
       {/* Seção 1: Comunicação Visual */}
       <section className="container section-padding" id="comunicacao-visual" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <span className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.cv.title')}</span>
-          <h2>{t('sections.cv.title')}</h2>
+          <h2 className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.cv.title')}</h2>
           <p>{t('sections.cv.subtitle')}</p>
         </div>
 
@@ -256,8 +256,7 @@ export default function Home() {
       {/* Seção 2: Marketing Publicitário */}
       <section className="container section-padding" id="marketing-publicitario" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <span className="portfolio-tag" style={{ margin: '0 0 12px', background: 'rgba(139, 92, 246, 0.15)', color: '#a78bfa' }}>{t('sections.mp.title')}</span>
-          <h2>{t('sections.mp.title')}</h2>
+          <h2 className="portfolio-tag" style={{ margin: '0 0 12px', background: 'rgba(139, 92, 246, 0.15)', color: '#a78bfa' }}>{t('sections.mp.title')}</h2>
           <p>{t('sections.mp.subtitle')}</p>
         </div>
 
@@ -357,8 +356,7 @@ export default function Home() {
       {/* Seção 3: Desenvolvedor Web e Mobile */}
       <section className="container section-padding" id="dev-web-mobile" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <span className="portfolio-tag" style={{ margin: '0 0 12px', background: 'rgba(236, 72, 153, 0.15)', color: '#f472b6' }}>{t('sections.wd.title')}</span>
-          <h2>{t('sections.wd.title')}</h2>
+          <h2 className="portfolio-tag" style={{ margin: '0 0 12px', background: 'rgba(236, 72, 153, 0.15)', color: '#f472b6' }}>{t('sections.wd.title')}</h2>
           <p>{t('sections.wd.subtitle')}</p>
         </div>
 
@@ -375,7 +373,7 @@ export default function Home() {
             <div className="portfolio-info">
               <a href="https://thermal-match.vercel.app/pt" target="_blank" rel="noopener noreferrer" >
               <h4>Link para o site</h4>
-               <p>{t('sections.wd.title')}</p>
+               <p>Chamadas de vídeo p2p com chat com tradução local. Ferramentas: Next.js, TypeScript, Supabase, Node.js, React, Vercel, React-Native.</p>
                </a>
               
             </div>
@@ -393,11 +391,27 @@ export default function Home() {
             <div className="portfolio-info">
               <a href="https://medusa-premium-store.vercel.app/" target="_blank" rel="noopener noreferrer" >
               <h4>Link para o site</h4>
-               <p>{t('sections.wd.title')}</p>
+               <p>Loja completa online com pagamentos (via Stripe) em Débito, Crédito, Pix e carteiras digitais. Ferramentas: Next.js, TypeScript, Supabase, Stripe, Node.js, React, Vercel.</p>
                </a>
             </div>
           </div>
 
+            {/* Card 3 */}
+            <div className="portfolio-card" onClick={() => openLightbox('wd3')} style={{ cursor: 'pointer' }}>
+              <div className="portfolio-image-wrapper">
+                <Image src={wd3} alt="Atelier Movelaria" className="portfolio-img" placeholder="blur" />
+                <div className="portfolio-overlay">
+                  <span className="portfolio-tag">{t('sections.wd.title')}</span>
+                  <h4 className="portfolio-caption">Atelier Movelaria</h4>
+                </div>
+              </div>
+              <div className="portfolio-info">
+                <a href="https://ecommerce-analytics-medusa.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <h4>Link para o site</h4>
+                  <p>Loja de móveis planejados com calculadora de orçamento e painel administrativo completo. Ferramentas: Next.js, TypeScript, Supabase, Stripe, Node.js, React, Vercel.</p>
+                </a>
+              </div>
+            </div>
         </div>
       </section>
 

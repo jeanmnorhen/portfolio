@@ -34,12 +34,15 @@ export default function Home() {
 
   // Tools list for rendering badges
   const tools = [
+    'Figma',
     'Next.js',
     'TypeScript',
     'Supabase',
     'Node.js',
     'React',
     'Vercel',
+    'Stripe',
+    'Medusa.js',
     'React-Native'
   ];
 

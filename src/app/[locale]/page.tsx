@@ -366,7 +366,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={wd1} alt={t('sections.wd.item1')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.wd.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.wd.item1')}</h4>
               </div>
             </div>
@@ -384,7 +383,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={wd2} alt={t('sections.wd.item2')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.wd.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.wd.item2')}</h4>
               </div>
             </div>
@@ -401,7 +399,6 @@ export default function Home() {
               <div className="portfolio-image-wrapper">
                 <Image src={wd3} alt="Atelier Movelaria" className="portfolio-img" placeholder="blur" />
                 <div className="portfolio-overlay">
-                  <span className="portfolio-tag">{t('sections.wd.title')}</span>
                   <h4 className="portfolio-caption">Atelier Movelaria</h4>
                 </div>
               </div>

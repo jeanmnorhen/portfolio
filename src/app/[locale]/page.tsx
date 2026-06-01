@@ -356,7 +356,7 @@ export default function Home() {
       {/* Seção 3: Desenvolvedor Web e Mobile */}
       <section className="container section-padding" id="dev-web-mobile" style={{ borderTop: '1px solid var(--border-subtle)' }}>
         <div className="section-header">
-          <span className="portfolio-tag" style={{ margin: '0 0 12px',  color: '#f472b6' }}>{t('sections.wd.title')}</span>
+          <span className="portfolio-tag" style={{ margin: '0 0 12px' }}>{t('sections.wd.title')}</span>
           <p>{t('sections.wd.subtitle')}</p>
         </div>
 

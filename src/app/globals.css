@@ -164,8 +164,8 @@ a {
   align-items: center;
   justify-content: center;
   padding: 14px 28px;
-  background: #1dbf73;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   font-weight: 700;
   border-radius: var(--radius-md);
   box-shadow: 0 4px 20px -5px rgba(29, 191, 115, 0.4);

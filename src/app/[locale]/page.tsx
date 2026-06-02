@@ -188,7 +188,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={cv1} alt={t('sections.cv.item1')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.cv.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.cv.item1')}</h4>
               </div>
             </div>
@@ -203,7 +202,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={cv2} alt={t('sections.cv.item2')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.cv.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.cv.item2')}</h4>
               </div>
             </div>
@@ -218,7 +216,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={cv3} alt={t('sections.cv.item3')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.cv.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.cv.item3')}</h4>
               </div>
             </div>
@@ -233,7 +230,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={cv4} alt={t('sections.cv.item4')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.cv.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.cv.item4')}</h4>
               </div>
             </div>
@@ -248,7 +244,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={cv5} alt={t('sections.cv.item5')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.cv.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.cv.item5')}</h4>
               </div>
             </div>
@@ -274,7 +269,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={mp1} alt={t('sections.mp.item1')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.mp.item1')}</h4>
               </div>
             </div>
@@ -289,7 +283,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={mp2} alt={t('sections.mp.item2')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.mp.item2')}</h4>
               </div>
             </div>
@@ -304,7 +297,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={mp3} alt={t('sections.mp.item3')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.mp.item3')}</h4>
               </div>
             </div>
@@ -319,7 +311,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={mp4} alt={t('sections.mp.item4')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.mp.item4')}</h4>
               </div>
             </div>
@@ -334,7 +325,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={mp5} alt={t('sections.mp.item5')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.mp.item5')}</h4>
               </div>
             </div>
@@ -349,7 +339,6 @@ export default function Home() {
             <div className="portfolio-image-wrapper">
               <Image src={mp6} alt={t('sections.mp.item6')} className="portfolio-img" placeholder="blur" />
               <div className="portfolio-overlay">
-                <span className="portfolio-tag">{t('sections.mp.title')}</span>
                 <h4 className="portfolio-caption">{t('sections.mp.item6')}</h4>
               </div>
             </div>

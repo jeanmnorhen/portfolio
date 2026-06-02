@@ -155,7 +155,7 @@ export default function Home() {
                 {t('cta_secondary')}
               </a>
               <a href="https://www.fiverr.com/s/jj9DBYL" target="_blank" rel="noopener noreferrer" className="btn-fiverr" style={{ padding: '16px 36px', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
-                <Image src={fiverrIcon} alt="Fiverr" width={20} height={20} />
+                <Image src={fiverrIcon} alt="Fiverr" width={30} height={30} />
                 {t('contact_fiverr_btn')}
               </a>
             </div>

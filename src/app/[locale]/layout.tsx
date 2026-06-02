@@ -11,8 +11,8 @@ import { routing } from '@/i18n/routing';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Senior Full Stack Dev | High-Performance Web Applications",
-  description: "Portfolio of a specialized freelance developer focusing on high-performance, secure, and scalable web applications using Next.js and Cloud Architecture.",
+  title: "Aplicações Web de Alto Desempenho",
+  description: "Portfólio de um desenvolvedor freelancer especializado em aplicações web de alto desempenho, seguras e escaláveis, utilizando Next.js e arquitetura em nuvem.",
 };
 
 export default async function LocaleLayout({

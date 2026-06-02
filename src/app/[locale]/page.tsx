@@ -153,6 +153,12 @@ export default function Home() {
               <a href="#comunicacao-visual" className="btn-secondary">
                 {t('cta_secondary')}
               </a>
+              <a href="https://www.fiverr.com/s/jj9DBYL" target="_blank" rel="noopener noreferrer" className="btn-fiverr" style={{ padding: '16px 36px', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 0H1a1 1 0 00-1 1v22a1 1 0 001 1h22a1 1 0 001-1V1a1 1 0 00-1-1zm-6.72 16.5h-2.12v-5.22c0-.5-.35-.74-.84-.74s-.89.28-.89.74v5.22h-2.11v-5.22c0-.5-.37-.74-.86-.74s-.89.28-.89.74v5.22H7.4V9.67h1.86v.91c.42-.69 1.15-1.04 2-1.04 1 0 1.78.47 2.06 1.25.42-.8 1.25-1.25 2.22-1.25 1.54 0 2.74 1 2.74 2.74v4.22zm-7.65-8.5c-.65 0-1.17-.52-1.17-1.17 0-.65.52-1.17 1.17-1.17.65 0 1.17.52 1.17 1.17 0 .65-.52 1.17-1.17 1.17z"/>
+              </svg>
+              {t('contact_fiverr_btn')}
+            </a>
             </div>
           </div>
 

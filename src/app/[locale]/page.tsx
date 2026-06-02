@@ -24,7 +24,7 @@ import wd2 from '@/img/wd2.png';
 import wd3 from '@/img/wd3.png';
 
 import foto from '@/img/foto.jpeg';
-import fiverrIcon from '@/img/fiverr-icon.png';
+import fiverrIcon from '@/img/fiverr-svgrepo-com.svg';
 
 export default function Home() {
   const t = useTranslations('Home');
